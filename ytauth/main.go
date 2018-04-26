@@ -26,7 +26,6 @@ var (
 	youtubeSecret   string
 
 	scopes []string
-	//You can find a full list of the scope at https://developers.google.com/identity/protocols/googlescopes#youtubev3
 )
 
 func init() {
