@@ -1,5 +1,5 @@
 # yt-server-oauth
-This script returns youtube credentials in base64 format. This was inspired by [google's auth code sample](https://developers.google.com/youtube/v3/code_samples/go).
+This script returns youtube credentials in base64 format. This was inspired by [google's auth code sample](https://github.com/youtube/api-samples/blob/master/go/oauth2.go).
 
 This script removed all of the uneeded code for the client workflow. As well as no longer generating/reading from a local secrets file.
 
