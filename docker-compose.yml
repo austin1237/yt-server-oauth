@@ -1,0 +1,10 @@
+version: '3'
+services:
+  ytauth:
+    build: ./ytauth
+    command: "go run main.go"
+    volumes:
+      - ./ytauth:/go/src/github.com/user/ytauth
+    environment:
+      YOUTUBE_CLIENT_ID: ${YOUTUBE_CLIENT_ID}
+      YOUTUBE_SECRET: ${YOUTUBE_SECRET}
